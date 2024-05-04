@@ -1,6 +1,3 @@
-arr = sorted(list(map(int,input("Enter arr Elements: ").split())))
-target = int(input("Enter Target Sum: "))
-
 def target_sum(arr, target):
 #check if there is any pair sum that matches target
     start = 0
@@ -20,4 +17,6 @@ def target_sum(arr, target):
         return 'No Pair sum equals to target'
     else:
         return res_pairs
-print(target_sum(arr, target))
+arr = sorted(list(map(int,input("Enter arr Elements: ").split())))
+target = int(input("Enter Target Sum: "))
+print(f"All possible pairs for {target}: ",target_sum(arr, target))
