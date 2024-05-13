@@ -29,6 +29,9 @@ class BST:
                     self.right = BST(data)
                 
     def inorder(self):
+        '''
+        to check the inserted nodes in the Tree
+        '''
         if self.left:
             self.left.inorder()
         print(self.key)
