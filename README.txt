@@ -150,3 +150,12 @@ to efficiently perform a sorted traversal of all the elements of all arrays.
 You can push the smallest element of each array in a Min Heap to get the overall minimum. 
 After getting the overall minimum, push the next element from the same array to the heap. 
 Then, repeat this process to make a sorted traversal of all elements.
+
+
+14. Topological Sort
+Description:
+    Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices 
+    such that for every directed edge u-v, vertex u comes before v in the ordering.
+
+Note: Topological Sorting for a graph is not possible if the graph is not a DAG.
+
