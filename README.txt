@@ -159,3 +159,10 @@ Description:
 
 Note: Topological Sorting for a graph is not possible if the graph is not a DAG.
 
+15. Prefix Sum
+Description:
+    This approach will give the array
+    where array[i] == sum of all its left subarray
+
+    Note: we can get an array
+    where arr[i] == sum of all its right subarray
