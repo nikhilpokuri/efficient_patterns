@@ -166,3 +166,11 @@ Description:
 
     Note: we can get an array
     where arr[i] == sum of all its right subarray
+
+
+
+
+
+
+ARTICLE LINK:
+ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
