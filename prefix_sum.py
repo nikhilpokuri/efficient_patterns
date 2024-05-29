@@ -1,3 +1,12 @@
+arr = [10, 20, 30, 40, 50]
+prefix_sum = [10]
+for i in range(1, len(arr)):
+    prev = prefix_sum[-1]
+    prefix_sum.append(prev + arr[i])
+print(prefix_sum)
+
+
+#Example
 arr = [10,20,30]
 total_sum = sum(arr)
 left_sum = 0
